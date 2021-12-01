@@ -196,7 +196,11 @@ a {
 
 }
 
+.purple{color:rgb(150, 79, 192)}
 
+.purple:hover, .purple:active {
+    color: var(--clr-hover)
+}
 
 .project {
     background-color: var(--clr-light);
@@ -263,10 +267,11 @@ a {
 
 .prj1 {
     transition: all .6s;
+    margin-bottom:10px
 }
 
 .prj1:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     border-radius: 4px;
 }
 
