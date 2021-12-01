@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dosis&family=Roboto&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h3 class="my_logo">Portfolio Website</h3>
+            </a>
+
+        </div>
+
+        <button class="nav-toggle" aria-label="navigation-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="list"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="list"><a href="about.html" class="nav_link">About Me</a></li>
+                <li class="list"><a href="portfolio_html.html" class="nav_link">HTML Portfolio</a></li>
+                <li class="list"><a href="portfolio_react.html" class="nav_link">React Portfolio</a></li>
+                <li class="list"><a href="contact.html" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about">
+        <div class="abt_me" id="me">
+            <h2 class="abt_me_title">About Me</h2>
+            <div class="abt_me_cnt">
+                <p class="info">Nice to meet you. I am a Junior Web Developer (HTML, CSS, JS, React, Redux, Python).
+                    Speaking: English, German, Russian, Finnish and studying Information Technology Student at LAB UAS.
+                </p>
+                <p class="info">
+                    Eeager to find an interesting project to participate in, hone and improve my web development
+                    skills, gain experience and learn something new.
+                </p>
+                <p class="info">Love to make beautiful web pages and solve challenging tasks
+
+                </p>
+            </div>
+        </div>
+        <section class="skill">
+            <h2 class="skill_title">My Skills</h2>
+            <div class="skill_cnt">
+                <img src="images/html.png" alt="HTML">
+                <img src="images/css.png" alt="CSS">
+                <img src="images/js.png" alt="JavaScript">
+                <img src="images/python.png" alt="Python">
+                <img src="images/react.png" alt="React">
+                <img src="images/redux.png" alt="Redux">
+            </div>
+        </section>
+    </div>
+
+
+    <footer class="footer" id="cnt">
+        <div class="list">
+            <ul class="social_list">
+                <li class="social_list_item">
+                    <a href="https://www.linkedin.com/in/maria-ro" target="blank" class="linkedIn">
+                        <i class="fab fa-linkedin fa-2x "></i>
+                    </a>
+                </li>
+                <li class="social_list_item">
+                    <a href="https://github.com/mariarogina" target="blank" class="github">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social_list_item">
+                    <a href="mailto:mariiarogina@gmail.com" class="mail">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>COPYRIGHT © 2021 Rogina</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dosis&family=Roboto&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h3 class="my_logo">Portfolio Website</h3>
+            </a>
+
+        </div>
+
+        <button class="nav-toggle" aria-label="navigation-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="list"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="list"><a href="about.html" class="nav_link">About Me</a></li>
+                <li class="list"><a href="portfolio_html.html" class="nav_link">HTML Portfolio</a></li>
+                <li class="list"><a href="portfolio_react.html" class="nav_link">React Portfolio</a></li>
+                <li class="list"><a href="contact.html" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project" id="prj">
+        <h3 class="prj_title">JS, REACT, REDUX</h3>
+        <div class="portfolio">
+
+
+            <div class="project_card">
+                <div class="project_pic">
+                    <a href="https://mariarogina.github.io/country-card-generator/" target="blank"> <img
+                            src="images/github/country_cards.png" alt="project fa-rotate-270" class="prj1"></a>
+
+                </div>
+                <div class="project_description">
+                    <a href="https://mariarogina.github.io/country-card-generator/" target="blank">
+                        <h5>Country cards generator</h5>
+                    </a>
+                    <br>
+                    <p class="info">Rest API, React</p>
+                </div>
+            </div>
+            <div class="project_card">
+                <div class="project_pic">
+                    <a href="https://mariarogina.github.io/web-store-api/#/" target="blank"> <img
+                            src="images/github/web_shop_main.png" alt="project 3" class="prj1"></a>
+                </div>
+                <div class="project_description">
+                    <a href="https://mariarogina.github.io/web-store-api/#/" target="blank">
+                        <h5>Web store</h5>
+                    </a>
+                    <br>
+                    <p class="info"> Rest API, React/Redux</p>
+                </div>
+            </div>
+            <div class="project_card">
+                <div class="project_pic">
+                    <a href="https://mariarogina.github.io/wish-list/" target="blank"> <img
+                            src="images/github/wishlist.png" alt="project 3" class="prj1"></a>
+                </div>
+                <div class="project_description">
+                    <a href="https://mariarogina.github.io/wish-list/" target="blank">
+                        <h5>Drag-and-drop Wish List</h5>
+                    </a>
+                    <br>
+                    <p class="info"> React/Redux, JSON</p>
+                </div>
+            </div>
+            <div class="project_card">
+                <div class="project_pic">
+                    <a href="https://mariarogina.github.io/hexToRgb/" target="blank"> <img src="images/github/hex.png"
+                            alt="project 3" class="prj1"></a>
+                </div>
+                <div class="project_description">
+                    <a href="https://mariarogina.github.io/hexToRgb/" target="blank">
+                        <h5>Hex to RGB Converter</h5>
+                    </a>
+                    <br>
+                    <p class="info"> React</p>
+                </div>
+            </div>
+            <div class="project_card">
+                <div class="project_pic">
+                    <a href="https://mariarogina.github.io/wish-list/" target="blank"> <img
+                            src="images/github/web_shop_js.png" alt="project 3" class="prj1"></a>
+                </div>
+                <div class="project_description">
+                    <a href="https://mariarogina.github.io/wish-list/" target="blank">
+                        <h5>Vanilla JS WebShop</h5>
+                    </a>
+                    <br>
+                    <p class="info"> JavaScript, DOM, JSON</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <footer class="footer" id="cnt">
+            <div class="list">
+                <ul class="social_list">
+                    <li class="social_list_item">
+                        <a href="https://www.linkedin.com/in/maria-ro" target="blank" class="linkedIn">
+                            <i class="fab fa-linkedin fa-2x "></i>
+                        </a>
+                    </li>
+                    <li class="social_list_item">
+                        <a href="https://github.com/mariarogina" target="blank" class="github">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="social_list_item">
+                        <a href="mailto:mariiarogina@gmail.com" class="mail">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>COPYRIGHT © 2021 Rogina</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
